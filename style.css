@@ -1,0 +1,181 @@
+
+/* Header */
+html{
+background-color: rgb(61, 61, 61);
+font-family: 'Orbitron', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+
+header{
+    overflow: hidden;
+    background-color: #d40078;
+    padding: 20px 10px;
+  
+
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+header li {
+    float: right;
+    display: block;
+  }
+
+
+header li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+}
+header ul a:hover {
+    background-color: #d40078;
+    color: white;
+    text-decoration: none;
+  }
+
+header img{
+   height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+    pointer-events: none;
+}
+
+header input{
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 2px;
+    font-size: 17px;
+    background: rgb(61, 61, 61);
+}
+.logocorner{
+    float: left;
+    margin: 4px;
+    display: block;
+    padding: 4px;
+    height: auto; 
+    width: auto; 
+    min-width: 29%;
+    min-height: 29%;
+    max-width: 32%;
+    max-height: 32%;   
+}
+
+    
+header button{
+    float: left;
+    padding: 5px;
+    margin-right: 14px;
+    margin-top:7px;
+    background: #ddd;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+
+header button:hover{
+background: #ccc;
+
+
+
+}
+
+
+
+
+/*Footer */
+
+footer{
+color: white;
+text-align: center;
+
+}
+
+footer a{
+color: white;
+}
+
+footer a:hover{
+text-decoration: none;
+
+
+}
+footer img:hover{
+opacity: 0.4;
+
+
+}
+
+/* Avatar */
+.avatar img{
+width: auto;
+height: auto;
+border-radius: 50%;
+border:4px solid #70b7b2;
+
+}
+
+
+/*CSS GRID LAYOUT*/
+
+
+
+
+.media-scroller{
+display: grid;
+gap: var(--size-10);
+grid-auto-flow: column;
+grid-auto-columns: 21%;
+overflow-x: auto;
+overscroll-behavior-inline: contain;
+background-color: #9700cc;
+}
+
+.scroll{
+
+background: rgb(61, 61, 61);
+color: white;
+}
+
+
+.media-element img{
+max-width: 100%;
+background-color: #70b7b2;
+border-radius: 2%;
+
+    
+}
+
+.media-element img:hover{
+    opacity: 0.4;
+  
+}
+
+
+
+/*design*/
+
+#grad {
+    background-image: linear-gradient(to right, rgba(212,0,120), rgba(45,226,230));
+  }
+
+
+  body h3 {
+    font-size: 3.1vw;
+  }
