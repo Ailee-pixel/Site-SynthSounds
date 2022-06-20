@@ -167,7 +167,8 @@ body {
 }
 .logo img{
   float: right;
-  display: block;
+  position: relative;
+  display: none;
   text-align: left;
 
 }
