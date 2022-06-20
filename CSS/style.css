@@ -166,10 +166,9 @@ body {
   padding: 0px;
 }
 .logo img{
-  float: right;
-  position: relative;
-  display: none;
-  text-align: left;
+  max-width: 50%;
+    height: auto;
+    float: left;
 
 }
 
