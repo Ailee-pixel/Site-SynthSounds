@@ -166,11 +166,10 @@ body {
   padding: 0px;
 }
 .logo img{
- max-width: 50%;
-    height: auto;
-    float: left;
-    width: auto;
-
+  float: right;
+  position: relative;
+  display: none;
+  text-align: left;
 
 }
 
@@ -194,4 +193,164 @@ body {
 
 .titletxt{
   background-color: rgba(212, 0, 120);
+}
+
+hr {
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(147, 64, 180);
+
+}
+  
+.info_icon {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 3px;
+
+}
+  
+.user_social_icon {
+  float: right;
+  margin-right: 5px;
+  color: #fff;
+
+}
+  
+.user_social_icon:hover {
+  color: rgb(147, 64, 180) ;
+  cursor: pointer;
+
+}
+  
+#user_header {
+  width: 1200px;
+  height: 150px;
+  margin: auto;
+  padding: 10px;
+  background: #222;
+  padding: 10px;
+
+}
+  
+#user {
+  width: 700px;
+  height: 100px;
+  float: left;
+    
+}
+
+#user_picture {
+  float: left;
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+ 
+}
+
+#user_info {
+  width: 1200px;
+  height: 135px;
+  background-color: rgba(60, 60, 60, 0.4);
+  padding-top: 10px;
+}
+  
+.user_name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+  letter-spacing: 1.75px;
+
+}
+
+#user_list {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: #fff;
+}
+
+#user_list li {
+  display: inline-block;
+  letter-spacing: px;
+}
+  
+/*barra*/ 
+#bar_nav{
+  margin-top: 5px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  padding:0  10px 10px  0;
+  background:#d40078;
+  width: 1200px;
+}
+
+ul.nav { 
+	margin:0; 
+	padding:0;
+
+ 
+}
+	
+ul.nav li {
+	list-style:none;	
+	display:inline;
+  
+}
+
+ul.nav li a {
+  float: left;
+	width: 150px;
+	font-size:15px;
+	background:#d40078;
+	color:white;
+	text-align: center;
+	padding:0  10px 10px  0;
+	text-decoration:none;
+}
+    
+
+ul.nav a:hover{
+	color:white;
+	border-color:#000 #fafafa #fafafa #000;
+  
+}
+
+/*perfil songs*/
+.media_foto{
+  margin: 2%;
+}
+
+.cards2{
+  width: auto;
+  height: auto;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 45px;
+    
+}
+
+.cards2:hover{
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+
+}
+
+.imgbx img{
+  width: auto;
+  height: 300px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+    
+}
+
+.cards img{
+width: 50%;
+
+
 }
