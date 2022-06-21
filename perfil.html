@@ -1,55 +1,134 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synth Sounds - Perfil</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
-
+    <title>Perfil</title>
+    <link href="CSS/style.CSS" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/6e7c32a327.js" crossorigin="anonymous"></script>
 </head>
-<body>
-<!--Permanente-->
-<div class="header" id="grad">
-    <img src="images/logo2.png"><a href="#default" class="logo"></a>
-    <div class="header-right">
-        
-        <a href="#home">Login</a>
-      <a href="#contact">Registro</a>
-      <a href="#about">Perfil</a>
-      <a href="index.html">Home</a>
-      <input type="text" placeholder="Search..">
-    </div>
-  </div>
 
-  </div>
-</div>
+<body>
+<header class = "siteheader" id = grad>
+    <div class = logocorner>
+        <a href="index.html"><img src="images/logo2.png"></a>
+    </div>
+        <div class="header">        
+            <ul>
+                <li><a class="active" href="plugins.html">Plugins</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </div>
 </header>
 
+    <div id="user_header">
+        <div id="user" class="animated fadeInDown">
+            <div id="user_picture">
+                <div id="picture_box">
+                    <img src="images/pfpplaceholder.png" class="rounded-circle" width="100">
+                </div>
+            </div>
+            <div id="user_info">
+                <h2 class="user_name">Nome do usuario
+                    <span class="user_social_icon"><i class="fa-brands fa-twitter"></i></span>
+                    <span class="user_social_icon"><i class="fa-brands fa-facebook"></i></span> 
+                    <span class="user_social_icon"><i class="fa-brands fa-instagram"></i></span>
+            <hr>
+                <ul id="user_list">
+                    <li><span class="info_icon"><i class="fa-solid fa-user-plus"></i></span> Seguir</li>
+                    <li><span class="info_icon"><i class="fa-solid fa-share"></i></span> Compartilhar</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div id="bar_nav">
+        <ul class="nav">
+            <li><a href="">Todas</a></li>
+            <li><a href="">Faixas Populares</a></li>
+            <li><a href="">Faixas</a></li>
+            <li><a href="">Álbuns</a></li>
+            <li><a href="">Playlist</a></li>
+        </ul>
+    </div><br>
+    
+    <div class="media_foto">
+        <br><h3>Recente</h3>
+        <div class="cards2">
+             <div class="imgbx">
+                  <img src="images/row1.jpg">
+             </div>
+             <audio controls>
+                <source src="" type="audio/mp3">
+            </audio>       
+        </div>
+    
+        <div class="cards2">
+            <div class="imgbx">
+                <img src="images/item3.jpg">
+            </div>
+            <audio controls>
+                <source src="" type="audio/mp3">
+            </audio>    
+        </div>
 
+        <div class="cards2">
+            <div class="imgbx">
+                <img src="images/row3.jpg">
+            </div>
+            <audio controls>
+               <source src="" type="audio/mp3">
+           </audio>     
+       </div>
 
+        <div class="cards2">
+            <div class="imgbx">
+                <img src="images/item5.jpg">
+            </div>
+            <audio controls>
+                <source src="" type="audio/mp3">
+            </audio>    
+        </div>
 
+        <div class="cards2">
+            <div class="imgbx">
+                <img src="images/row5.png">
+            </div>
+            <audio controls>
+                <source src="" type="audio/mp3">
+            </audio>    
+    
+        </div>
 
-
-
-<!--Permanente-->
+        <div class="cards2">
+            <div class="imgbx">
+                <img src="images/item4.jpg">
+            </div>
+            <audio controls>
+                <source src="" type="audio/mp3">
+            </audio>    
+        </div>
+    </div> 
+   
 <footer id="grad">
+    <div>
+        <h4>Siga-nos</h4>
+            <a href="index.html"><img src="images/tt.png"></a> 
+            <a href="index.html"><img src="images/fb.png"></a> 
+            <a href="index.html"><img src="images/ig.png"></a>
+    </div>
+    <div>
+        <a href="index.html">Atendimento</a> — <a href="index.html">Sobre</a> — <a href="index.html">Termos de Uso</a>
+    </div>
+    <div>
+        &copy; copyright Synth Sounds 2022.
+    </div>
 
-<div>
-<h4>Siga-nos nas redes sociais</h4>
-<a href="index.html"><img src="images/tt.png"></a> <a href="index.html"><img src="images/fb.png"></a> <a href="index.html"><img src="images/ig.png"></a>
-</div>
-<div>
-    <a href="index.html">Atendimento</a> — <a href="index.html">Sobre</a> — <a href="index.html">Termos de Uso</a>
-</div>
-<div>
-&copy; copyright Synth Sounds 2022.
-</div>
 </footer>
-
 </body>
 </html>
-<!--Permanente-->
+
+
+
