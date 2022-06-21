@@ -1,0 +1,383 @@
+
+/* Header */
+html{
+  background-color: rgb(61, 61, 61);
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+header{
+    overflow: hidden;
+    background-color: #d40078;
+    padding: 20px 10px;
+
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+header li {
+    float: right;
+    display: block;
+  }
+
+header li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+header ul a:hover {
+    background-color: #d40078;
+    color: white;
+    text-decoration: none;
+  }
+
+header img{
+   height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    max-height: 100%;
+    pointer-events: none;
+}
+
+header input{
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 2px;
+    font-size: 17px;
+    background: rgb(61, 61, 61);
+}
+.logocorner{
+    float: left;
+    margin: 4px;
+    display: block;
+    padding: 4px;
+    height: auto; 
+    width: auto; 
+    min-width: 29%;
+    min-height: 29%;
+    max-width: 32%;
+    max-height: 32%;   
+}
+    
+header button{
+    float: left;
+    padding: 5px;
+    margin-right: 14px;
+    margin-top:7px;
+    background: #ddd;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+
+header button:hover{
+  background: #ccc;
+
+}
+
+/*Footer */
+
+footer{
+  color: white;
+  text-align: center;
+
+}
+
+footer a{
+  color: white;
+
+}
+
+footer a:hover{
+  text-decoration: none;
+
+}
+
+footer img:hover{
+  opacity: 0.4;
+
+}
+
+/* Avatar */
+.avatar img{
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  border:4px solid #70b7b2;
+
+}
+
+/*CSS GRID LAYOUT*/
+
+.media-scroller{
+  display: grid;
+  gap: var(--size-10);
+  grid-auto-flow: column;
+  grid-auto-columns: 21%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  background-color: #9700cc;
+}
+
+.scroll{
+  background: rgb(61, 61, 61);
+  color: white;
+}
+
+
+.media-element img{
+  max-width: 100%;
+  background-color: #70b7b2;
+  border-radius: 2%;
+
+    
+}
+
+.media-element img:hover{
+    opacity: 0.4;
+  
+}
+
+.media_foto{
+  color: #fff;
+}
+
+/*design*/
+#grad {
+  background-image: linear-gradient(to right, rgba(212,0,120), rgba(45,226,230));
+  }
+
+
+body h3 {
+  font-size: 3.1vw;
+}
+
+/*Plugins*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.main{
+  margin: 2%;
+}
+
+
+.cards{
+  width: auto;
+  height: auto;
+  display: inline-block;
+  background-color: rgb(192, 149, 212);
+  border-radius: 5px;
+  margin: 45px;
+    
+}
+
+.cards:hover{
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+.images img{
+  width: auto;
+  height: 225px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+    
+}
+
+.title{
+  text-align: center;
+
+}
+
+.des{
+  text-align: center;
+  padding: 4px;
+
+}
+
+button{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(147, 64, 180);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+button:hover{
+  background-color: #333;
+  color: white;
+  transition: .5s;
+
+}
+ 
+/*perfil*/
+hr {
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(147, 64, 180);
+
+}
+  
+.info_icon {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 3px;
+
+}
+  
+.user_social_icon {
+  float: right;
+  margin-right: 5px;
+  color: #fff;
+
+}
+  
+.user_social_icon:hover {
+  color: rgb(147, 64, 180) ;
+  cursor: pointer;
+
+}
+  
+#user_header {
+  width: 1200px;
+  height: 150px;
+  margin: auto;
+  padding: 10px;
+  background: #222;
+  padding: 10px;
+
+}
+  
+#user {
+  width: 700px;
+  height: 100px;
+  float: left;
+    
+}
+
+#user_picture {
+  float: left;
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+ 
+}
+
+#user_info {
+  width: 1200px;
+  height: 135px;
+  background-color: rgba(60, 60, 60, 0.4);
+  padding-top: 10px;
+}
+  
+.user_name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+  letter-spacing: 1.75px;
+
+}
+
+#user_list {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: #fff;
+}
+
+#user_list li {
+  display: inline-block;
+  letter-spacing: px;
+}
+  
+/*barra*/ 
+#bar_nav{
+  margin-top: 5px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  padding:0  10px 10px  0;
+  background:#d40078;
+  width: 1200px;
+}
+
+ul.nav { 
+	margin:0; 
+	padding:0;
+
+ 
+}
+	
+ul.nav li {
+	list-style:none;	
+	display:inline;
+  
+}
+
+ul.nav li a {
+  float: left;
+	width: 150px;
+	font-size:15px;
+	background:#d40078;
+	color:white;
+	text-align: center;
+	padding:0  10px 10px  0;
+	text-decoration:none;
+}
+    
+
+ul.nav a:hover{
+	color:white;
+	border-color:#000 #fafafa #fafafa #000;
+  
+}
+
+/*perfil songs*/
+.media_foto{
+  margin: 2%;
+}
+
+.cards2{
+  width: auto;
+  height: auto;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 45px;
+    
+}
+
+.cards2:hover{
+  box-shadow: 2px 2px 10px rgb(0, 0, 0);
+
+}
+
+.imgbx img{
+  width: auto;
+  height: 300px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+    
+}
+
